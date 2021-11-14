@@ -1,0 +1,1006 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+html{
+    overflow-x: hidden;
+    font-size: 12px;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    background: #f6f6f6;
+    flex-wrap: wrap;
+}
+
+#text-purple{
+ color: purple;
+}
+#bg-purple{
+    background: purple;
+}
+#text-green{
+    color: rgb(5, 219, 5);
+}
+
+/* left section */
+.left-section{
+   width: 15%;
+   position: fixed;
+   left: 0px;
+   transition: .5s;
+   z-index: 99;
+}
+
+.fa-close{
+    position: absolute;
+    font-size:20px;
+    color: purple;
+    right: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+/* box1 */
+.left-section .box1{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: rgb(230, 230, 230);
+}
+.left-section .box1 p{
+    font-size: 1.2rem;
+    padding: 15px 10px;
+    color: rgb(98, 98, 98);
+    cursor: pointer;
+
+}
+.left-section .box1 p:hover{
+       background-color: white;
+       border-left: 5px solid purple;
+       box-shadow: 0px 5px 7px 0px silver;
+       color: purple;
+}
+.left-section .box1 .default-link{
+    background-color: white;
+    border-left: 5px solid purple;
+    box-shadow: 0px 5px 7px 0px silver;
+    color: purple;
+}
+
+/* box2 */
+.left-section .box2{
+     width: 100%;
+     margin-top: 12px;
+     padding: 20px 10px;
+    box-shadow: 5px 5px 7px 0px silver;
+    border-radius: 15px;
+}
+.left-section .box2 button{
+    margin-left: 30px;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 3px;
+    cursor: pointer;
+}
+.left-section .box2 .rating{
+    margin-top: 20px;
+}
+.left-section .box2  p{
+    color:rgb(128, 128, 128);
+}
+.left-section .box2 .rating .rating-stars{
+    width: 100%;
+    border: 3px dotted purple;
+    padding: 5px 3px;
+    color:rgb(128, 128, 128);
+}
+.left-section .box2  .recommendation{
+    margin-top: 15px;
+}
+.left-section .box2  .recommendation .box{
+    width: 100%;
+    border: 3px dotted purple;
+    padding: 5px 3px;
+    color:rgb(128, 128, 128);
+    font-size: 1.1rem;
+}
+
+.left-section .box2 .accumulation{
+    margin-top: 15px;
+}
+.left-section .box2 .accumulation .box{
+    width: 100%;
+    border: 3px dotted purple;
+    padding: 5px 3px;
+    color:rgb(128, 128, 128);
+    font-size: 1.1rem;
+}
+
+
+/* main section */
+main{
+    width: 63%;
+    height: max-content;
+    margin-left:16%;
+    font-size: 20px;
+}
+main .toggle-btn{
+    width: 100%;
+    padding: 1%;
+    font-size:30px;
+    color: purple;
+    border-bottom: 1px solid silver;
+    cursor: pointer;
+}
+/* essential  */
+main .essential{
+ width: 100%;
+ margin-top: 20px;
+}
+main .essential .boxes{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .essential .boxes .box{
+      width: 24%;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 2% 1%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 3px 5px 0px silver;
+}
+main .essential .boxes .box p{
+    font-size: 1.1rem;
+    color: grey;
+}
+main .essential .boxes .box h4{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+/* essential ends */
+
+/* growth start */
+.growth{
+    width: 100%;
+}
+.growth .boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.growth .boxes .box{
+    width: 48%;
+    background-color: white;
+    padding: 2% 1%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px silver;
+}
+.growth .boxes .box .top{
+    display: flex;
+    justify-content: space-between;
+}
+.growth .boxes .box .top button{
+    border: none;
+    padding: 3px 5px;
+    color: white;
+}
+.growth .boxes .box .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.growth .boxes .box .bottom .one{
+    width: 25%;
+}
+.growth .boxes .box .bottom p{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.growth .boxes .box .bottom .two{
+    width: 25%;
+}
+.growth .boxes .box .bottom .three{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.growth .boxes .box .bottom .three input{
+    width: 100%;
+    border: 3px dotted purple;
+}
+
+.growth .about{
+    width: 100%;
+    padding: 3% 1%;
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.growth .about p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+/* growth ends */
+
+/* ipo details */
+.ipo{
+    width: 100%;
+    margin-top: 30px;
+}
+.ipo .dates{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ipo .dates .box{
+    width: 32%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 1%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px silver;
+}
+.ipo .dates .box .left{
+  width: 20%;
+  text-align: center;
+  background-color:rgb(230, 80, 230);
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+.ipo .dates .box2 .left{
+    background-color: palevioletred;
+}
+.ipo .dates .box3 .left{
+    background-color:skyblue;
+}
+.ipo .dates .box .right{
+    width: 70%;
+}
+.ipo .dates .box .right h5{
+    font-size: 20px;
+}
+.ipo .dates .box .right p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* price table */
+.price-table{
+    width: 100%;
+    margin-top: 30px;
+    background-color: white;
+}
+.price-table .top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.price-table .top .box{
+    width: 14%;
+    text-align: center;
+    border: 1px solid silver;
+    padding: 2px;
+}
+.price-table .top .box p{
+    font-size: 14px;
+    color: rgb(138, 138, 138);
+}
+.price-table .top .box  h4{
+    font-size: 17px;
+}
+.price-table .bottom{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 1%;
+}
+.price-table .bottom button{
+    width: 30%;
+    height: 50px;
+    font-size:15px;
+    border: none;
+    background: palevioletred;
+    color: white;
+    cursor: pointer;
+}
+.price-table .bottom .content{
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+}
+.price-table .bottom .content .box{
+    width: 33%;
+    text-align: center;
+}
+.price-table .bottom .content .box p{
+    font-size: 15px;
+    color: grey;
+}
+.price-table .bottom .content .box h4{
+    font-size: 18px;
+}
+/* ipo details ends */
+
+/* funding start */
+.funding{
+    width: 100%;
+}
+.funding .title{
+    margin-top: 30px;
+}
+.funding .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.funding .content .box1{
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: max-content;
+}
+.funding .content .box1 .stage{
+    width: 100%;
+    padding: 5% 1%;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 3px 5px 0px silver;
+}
+.funding .content .box1 .looking{
+    margin-top: 50px;
+    background: white;
+    box-shadow: 0px 3px 5px 0px silver;
+    text-align: center;
+    padding: 5% 1%;
+}
+.funding .content .box1 p{
+    font-size: 15px;
+}
+.funding .content .box1 h4{
+    font-size: 18px;
+}
+.funding .content .box2{
+    width: 78%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px silver;
+    height: max-content;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1% 1%;
+}
+.funding .content .box2 ul{
+    list-style-type: none;
+}
+.funding .content .box2 ul .head{
+    font-size: 18px;
+}
+.funding .content .box2 ul li{
+    font-size: 15px;
+    line-height: 30px;
+}
+.funding .button{
+    width: 100%;
+    text-align: right;
+}
+.funding .add-btn{
+    background: purple;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+}
+/* funding ends */
+
+/* merger */
+.merger{
+    width: 100%;
+}
+.merger .title{
+    margin-top:30px;
+}
+.merger .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.merger .content .box{
+    width: 32%;
+    padding: 20px 0px 20px 30px;
+    background: white;
+    box-shadow: 0px 3px 5px 0px silver;
+}
+.merger .content .box h4{
+    font-size: 18px;
+}
+.merger .content .box ul li{
+     margin-top: 10px;
+     font-size: 15px;
+     color: grey;
+}
+/* merger ends */
+
+/* business model start */
+.business-model{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.business-model .box{
+    width: 48%;
+    padding: 2% 3%;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 3px 5px 0px silver;
+}
+.business-model .box h4{
+    font-size: 18px;
+}
+.business-model .box li{
+    font-size: 15px;
+    margin-top: 15px;
+    color: grey;
+}
+/* business model ends */
+
+/* product and services start */
+.product-and-services{
+     width: 100%;
+     margin-top: 100px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+.product-and-services .box{
+    width: 48%;
+    border-radius: 10px;
+}
+.product-and-services .contents .content1{
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0px 3px 5px 0px silver;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.product-and-services .contents .content2{
+    background: white;
+    box-shadow: 0px 3px 5px 0px silver;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.product-and-services .contents .title{
+    font-size: 18px;
+    padding: 2% 3%;
+}
+.product-and-services .contents ul li{
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+/* pie */
+.product-and-services .pie{
+    background: white;
+    border-radius: 10px;
+    padding: 2% 2%;
+}
+.product-and-services .pie .title{
+    font-size: 18px;
+}
+.product-and-services .pie .pieChart{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    background: conic-gradient(purple 0.00% 55.55%, rgb(143, 110, 143) 55.55% 75.55%, pink 75.55% 90.55%, red 90.55% 100%);
+    margin: 0 auto;
+    margin-top:30px;            
+}
+.product-and-services .details{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.product-and-services .details .range{
+    width: 50%;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.product-and-services .details .range .clr1{
+    color: purple;
+}
+.product-and-services .details .range .clr2{
+    color: rgb(143, 110, 143);
+}
+.product-and-services .details .range .clr3{
+    color: pink 75.55% 90.55%;
+}
+.product-and-services .details .range .clr4{
+    color: red;
+}
+/* product and services ends */
+
+.industry{
+    width: 100%;
+    padding: 5% 1%;
+}
+.industry .title{
+    font-size: 19px;
+}
+.industry .content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.industry .content .box{
+    width: 32%;
+    background: white;
+    padding: 20px 0px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px silver;
+}
+.industry .content .box h3{
+    font-size: 18px;
+}
+.industry .content .box ul li{
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+}
+
+/* awards */
+.award{
+    width: 100%;
+    padding: 20px 0px 20px 30px;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.award h3{
+    font-size: 18px;
+}
+.award li{
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* awards ends */
+
+.industry .content2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.industry .content2 .box{
+    width: 48%;
+    background: white;
+    padding: 20px 0px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px silver;
+    margin-bottom: 20px;
+}
+.industry .content2 .box h3{
+    font-size: 18px;
+}
+.industry .content2 .box ul li{
+    font-size: 15px;
+    color: grey;
+    margin-top: 10px;
+}
+/* industry esction ends */
+
+/* last section start */
+.last-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2% 0%;
+}
+.last-section .rating{
+    width: 40%;
+}
+.last-section .rating .title{
+    font-size: 18px;
+}
+.last-section .rating .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.last-section .rating .top .stars{
+    display: flex;
+    list-style: none;
+}
+.last-section .rating .top .stars li{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.last-section .rating .top button{
+    padding:3px 15px;
+    background: purple;
+    color: white;
+    border: none;
+}
+.last-section .rating .box{
+    background: white;
+    padding: 3%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px 0px silver;
+    margin-top: 10px;
+}
+.last-section .rating .box .message{
+    width: 100%;
+    height: 170px;
+    border: 3px dotted purple;
+    margin-top: 10px;
+}
+/* details section */
+.last-section .details{
+    width: 58%;
+}
+.last-section .details .title{
+    font-size: 18px;
+}
+.last-section .details .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 3%;
+    border-radius: 15px;
+    background: white;
+}
+.last-section .details .box .points{
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.last-section .details .box .points p{
+    font-size: 15px;
+}
+.last-section .details .box .points h5{
+    font-size: 18px;    
+} 
+.last-section .details .box .info{
+    width: 100%;
+    color: purple;
+    line-height: 30px;
+}
+
+/* last section start ends */
+
+/* main ends */
+
+
+
+/* right section */
+.right-section{
+    width: 20%;
+    height: 500px;
+    position: sticky;
+    top: 0px;
+}
+.right-section .box1{
+    background: rgb(240, 240, 240);
+    border-radius: 15px;
+    margin-top:15px;
+    padding: 7% 3%;
+    box-shadow: 5px 5px 7px 0px silver;
+}
+.right-section h3 .fa{
+    margin-left: 50%;
+}
+.right-section .box1 .price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:15px;
+}
+.right-section .box1 .price p{
+    color: rgb(116, 116, 116);
+    margin-top: 5px;
+}
+.right-section .box1 .price button{
+    color: white;
+    padding:5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+.right-section .box1 hr{
+    border: none;
+    background: silver;
+    margin-top: 20px;
+    height: 1px;
+}
+.right-section .box1 .switch{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.right-section .box1 .available{
+    margin-top: 15px;
+}
+.right-section .box1 .available ul{
+    display: flex;
+    list-style: none;
+}
+.right-section .box1 .available ul li{
+    margin-right: 30px;
+    color: rgb(139, 139, 139);
+}
+.right-section .box2{
+    background: rgb(240, 240, 240);
+    border-radius: 15px;
+    margin-top:15px;
+    padding: 7% 3%;
+    box-shadow: 5px 5px 7px 0px silver;
+}
+.right-section .box2 .boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.right-section .box2 .boxes .box{
+    width: 48%;
+    text-align: center;
+    margin-bottom:10px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 5px;
+    padding: 1%;
+}
+.right-section .box2 .boxes .box p{
+    font-size: 13px;
+}
+.right-section .box2 .boxes .box h3{
+    font-size: 15px;
+}
+/* right section ends */
+
+
+/* media query start */
+@media only screen and (max-width:1264px){
+    /* left */
+
+    /* main */
+    .price-table .top .box{
+        width: 20%;
+    }
+
+    /* right */
+}
+
+@media only screen and (max-width:1234px){
+    /* left */
+
+    /* main */
+    .funding .content .box2{
+        width: 100%;
+    }
+    .funding .content .box1{
+        width: 100%;
+    }
+
+    /* right */
+}
+
+
+
+@media only screen and (max-width:1088px){
+    /* left section */
+    .left-section{
+        left: -50%;
+    }
+    .fa-close{
+        display: block;
+    }
+
+    /* main section */
+    main{
+        width: 65%;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    main .essential .boxes .box{
+        width: 32%;
+    }
+    .ipo .dates .box{
+        width:85%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .merger .content .box{
+        width:100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .last-section .rating{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .last-section .details{
+        width: 100%;
+    }
+
+    /* right section */
+    .right-section{
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width:928px){
+    /* left */
+
+    /* main */
+    .price-table .top .box{
+        width: 25%;
+    }
+    .industry .content .box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* right */
+}
+
+
+
+
+@media only screen and (max-width:822px){
+    /* left */
+
+    /* main */
+    main .essential .boxes .box{
+        width: 48%;
+    }
+    .growth .boxes .box{
+        width: 100%;
+    }
+    .business-model .box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    /* right */
+}
+
+@media only screen and (max-width:812px){
+    /* left */
+
+    /* main */
+    main{
+        width: 100%;
+    }
+    .product-and-services .box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    /* right */
+    .right-section{
+        position: inherit;
+        width: 100%;
+    }
+    
+
+}
+
+
+@media only screen and (max-width:658px){
+   
+    /* left */
+
+    /* main */
+    .funding .content .box2 ul{
+        width: 33%;
+        margin-bottom: 20px;
+    }
+
+    /* right */
+}
+
+@media only screen and (max-width:604px){
+    /* left */
+
+    /* main */
+    .industry .content2 .box{
+        width: 100%;
+    }
+
+    /* right */
+}
+
+
+@media only screen and (max-width:504px){
+   
+    /* left */
+
+    /* main */
+    .funding .content .box2 ul{
+        width: 50%;
+    }
+
+    /* right */
+
+}
+
+@media only screen and (max-width:556px){
+    /* left */
+
+    /* main */
+    main .essential .boxes .box{
+        width: 95%;
+    }
+    .price-table .top .box{
+        width: 33%;
+    }
+
+
+    /* right */
+}
+
+
+
+@media only screen and (max-width:392px){
+    /* left */
+
+    /* main */
+    .price-table .top .box{
+        width: 50%;
+    }
+    .funding .content .box2 ul{
+        width: 100%;
+    }
+
+    /* right */
+}
+
+
+
+
+
+
+
+
+
+
+
